@@ -1,12 +1,12 @@
 console.log("Arrancando Server");
 
 var express= require("express");
-var parcero=  require("body-parser");
+//var parcero=  require("body-parser");
 var web = express();
-web.use(parcero.urlencoded());
+//web.use(parcero.urlencoded());
 var server;
 
-servidor= web.listen(8080, function () {
+servidor= web.listen(8000, function () {
 console.log("Arrancado");
 });
 
